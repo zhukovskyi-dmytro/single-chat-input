@@ -26,7 +26,20 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				chat: {
+					input: {
+						bg: 'hsl(var(--chat-input-bg))',
+						border: 'hsl(var(--chat-input-border))',
+						focus: 'hsl(var(--chat-input-focus))'
+					},
+					send: {
+						bg: 'hsl(var(--chat-send-bg))',
+						hover: 'hsl(var(--chat-send-hover))',
+						text: 'hsl(var(--chat-send-text))'
+					}
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
